@@ -9,10 +9,10 @@ Group:		Applications/System
 Source0:	http://dl.sourceforge.net/anteater/%{name}-%{version}.tar.bz2
 # Source0-md5:	21ab169a88e1a80942cc8816d7ea6438
 URL:		http://sourceforge.net/projects/anteater/
-BuildRequires:	libstdc++-devel
-BuildRequires:	libtool
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libstdc++-devel
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
