@@ -23,7 +23,7 @@ the analysis are modular class objects with a clear interface.
 %description -l pl
 Anteater (mrówkojad) jest analizatorem logów MTA (np. sendmaila i postfiksa).
 Narzêdzie jest napisane w 100% w C++ i jest bardzo ³atwe do przystosowania.
-Wej¶cie i wyj¶cie s± modularnymi klasami objektów z przejrzystym interfejsem.
+Wej¶cie i wyj¶cie s± modularnymi klasami obiektów z przejrzystym interfejsem.
 
 %prep
 %setup -q
