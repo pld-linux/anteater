@@ -16,14 +16,16 @@ BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Anteater is a log analyser for MTA logfiles (for example sendmail and postfix).
-The tool is written in 100% C++ and very easy to customize. Input, output, and
-the analysis are modular class objects with a clear interface.
+Anteater is a log analyser for MTA logfiles (for example sendmail and
+postfix). The tool is written in 100% C++ and very easy to customize.
+Input, output, and the analysis are modular class objects with a clear
+interface.
 
 %description -l pl
-Anteater (mrówkojad) jest analizatorem logów MTA (np. sendmaila i postfiksa).
-Narzêdzie jest napisane w 100% w C++ i jest bardzo ³atwe do przystosowania.
-Wej¶cie i wyj¶cie s± modularnymi klasami obiektów z przejrzystym interfejsem.
+Anteater (mrówkojad) jest analizatorem logów MTA (np. sendmaila i
+postfiksa). Narzêdzie jest napisane w 100% w C++ i jest bardzo ³atwe
+do przystosowania. Wej¶cie i wyj¶cie s± modularnymi klasami obiektów z
+przejrzystym interfejsem.
 
 %prep
 %setup -q
