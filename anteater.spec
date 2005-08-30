@@ -4,11 +4,11 @@ Name:		anteater
 Version:	0.4.5
 Release:	0.1
 Epoch:		0
-License:	GPL
+License:	GPL v2
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/anteater/%{name}-%{version}.tar.bz2
 # Source0-md5:	21ab169a88e1a80942cc8816d7ea6438
-URL:		http://sourceforge.net/projects/anteater/
+URL:		http://anteater.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
