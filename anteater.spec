@@ -1,4 +1,4 @@
-Summary:	Dynamic MTA logfile analyser.
+Summary:	Dynamic MTA logfile analyser
 Summary(pl):	Dynamiczny analizator logów MTA
 Name:		anteater
 Version:	0.4.5
