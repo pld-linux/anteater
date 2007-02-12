@@ -1,5 +1,5 @@
 Summary:	Dynamic MTA logfile analyser
-Summary(pl):	Dynamiczny analizator logów MTA
+Summary(pl.UTF-8):   Dynamiczny analizator logÃ³w MTA
 Name:		anteater
 Version:	0.4.5
 Release:	0.1
@@ -21,10 +21,10 @@ postfix). The tool is written in 100% C++ and very easy to customize.
 Input, output, and the analysis are modular class objects with a clear
 interface.
 
-%description -l pl
-Anteater (mrówkojad) jest analizatorem logów MTA (np. sendmaila i
-postfiksa). Narzêdzie jest napisane w 100% w C++ i jest bardzo ³atwe
-do przystosowania. Wej¶cie i wyj¶cie s± modularnymi klasami obiektów z
+%description -l pl.UTF-8
+Anteater (mrÃ³wkojad) jest analizatorem logÃ³w MTA (np. sendmaila i
+postfiksa). NarzÄ™dzie jest napisane w 100% w C++ i jest bardzo Å‚atwe
+do przystosowania. WejÅ›cie i wyjÅ›cie sÄ… modularnymi klasami obiektÃ³w z
 przejrzystym interfejsem.
 
 %prep
