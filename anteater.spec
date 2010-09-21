@@ -9,6 +9,7 @@ Group:		Applications/System
 Source0:	http://downloads.sourceforge.net/anteater/%{name}-%{version}.tar.bz2
 # Source0-md5:	21ab169a88e1a80942cc8816d7ea6438
 Patch0:		%{name}-configure.in.patch
+Patch0:		%{name}-cstdlib.patch
 URL:		http://anteater.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -32,6 +33,7 @@ przejrzystym interfejsem.
 %setup -q
 
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__libtoolize}
