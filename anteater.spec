@@ -2,8 +2,7 @@ Summary:	Dynamic MTA logfile analyser
 Summary(pl.UTF-8):	Dynamiczny analizator logów MTA
 Name:		anteater
 Version:	0.4.5
-Release:	0.1
-Epoch:		0
+Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://downloads.sourceforge.net/anteater/%{name}-%{version}.tar.bz2
@@ -56,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man?/*
+%attr(755,root,root) %{_bindir}/anteater
+%{_mandir}/man1/anteater.1*
