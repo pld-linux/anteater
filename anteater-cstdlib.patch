@@ -1,0 +1,33 @@
+diff -Naur anteater-0.4.5.orig//anteater/parameter.cpp anteater-0.4.5/anteater/parameter.cpp
+--- anteater-0.4.5.orig//anteater/parameter.cpp	2003-10-23 14:35:29.000000000 +0200
++++ anteater-0.4.5/anteater/parameter.cpp	2010-09-21 15:48:33.000000000 +0200
+@@ -8,6 +8,7 @@
+ // ========================================================================
+ 
+ #include "parameter.h"
++#include <cstdlib>
+ 
+ Parameter::Parameter() :
+ 		str_unknown( "Unknown" ),
+diff -Naur anteater-0.4.5.orig//anteater/postfixfilter.cpp anteater-0.4.5/anteater/postfixfilter.cpp
+--- anteater-0.4.5.orig//anteater/postfixfilter.cpp	2003-11-03 17:46:21.000000000 +0100
++++ anteater-0.4.5/anteater/postfixfilter.cpp	2010-09-21 15:48:19.000000000 +0200
+@@ -12,6 +12,7 @@
+ #include <ctime>
+ #include <list>
+ #include <algorithm>
++#include <cstdlib>
+ 
+ postfixFilter::postfixFilter() :
+ 		strPrefix( "postfix" ),
+diff -Naur anteater-0.4.5.orig//anteater/syslogfilter.cpp anteater-0.4.5/anteater/syslogfilter.cpp
+--- anteater-0.4.5.orig//anteater/syslogfilter.cpp	2003-11-03 17:53:48.000000000 +0100
++++ anteater-0.4.5/anteater/syslogfilter.cpp	2010-09-21 15:48:04.000000000 +0200
+@@ -10,6 +10,7 @@
+ #include "syslogfilter.h"
+ #include "plugin.h"
+ #include <ctime>
++#include <cstdlib>
+ 
+ //#define DEBUG
+ 
